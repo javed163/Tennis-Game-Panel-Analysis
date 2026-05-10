@@ -10,6 +10,8 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](#license)
 
 ---
+This is the link of sample output video 
+https://drive.google.com/file/d/18XyHSTeX5cxJGMyDaqG8B8W49LEpEmlI/view?usp=sharing
 
 ## 📋 Overview
 
@@ -159,7 +161,6 @@ frame,timestamp_sec,player_id,shot_type,confidence,wrist_velocity,wrist_angle_de
 
 *Take a reference from this youtube channel*
 ```
-
 
 ---
 
