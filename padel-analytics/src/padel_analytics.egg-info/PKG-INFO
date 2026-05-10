@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: padel-analytics
+Version: 1.0.0
+Summary: Padel Game Analytics — Shot Classification System
+Author: Your Name
+Requires-Python: >=3.10
+Requires-Dist: opencv-python>=4.9
+Requires-Dist: ultralytics>=8.2
+Requires-Dist: mediapipe>=0.10
+Requires-Dist: numpy>=1.26
+Requires-Dist: pandas>=2.2
+Requires-Dist: scipy>=1.13
+Requires-Dist: matplotlib>=3.9
+Requires-Dist: seaborn>=0.13
+Requires-Dist: tqdm>=4.66
+Requires-Dist: loguru>=0.7
+Requires-Dist: pyyaml>=6.0
+Provides-Extra: torch
+Requires-Dist: torch>=2.3; extra == "torch"
+Requires-Dist: torchvision>=0.18; extra == "torch"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.2; extra == "dev"
+Requires-Dist: pytest-cov>=5.0; extra == "dev"
+Requires-Dist: jupyterlab>=4.2; extra == "dev"
+Dynamic: author
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

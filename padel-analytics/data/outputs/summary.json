@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "exported_at": "2026-05-10T10:37:21",
+    "generator": "Padel Analytics Pipeline v1.0"
+  },
+  "duration_sec": 11.96,
+  "total_frames": 299,
+  "fps": 25.0,
+  "total_shots": 41,
+  "total_rallies": 1,
+  "avg_rally_shots": 41.0,
+  "avg_rally_duration": 10.8,
+  "player_stats": {
+    "player_3": {
+      "shot_counts": {
+        "forehand": 1,
+        "backhand": 1,
+        "smash": 0,
+        "unknown": 0,
+        "total": 2
+      },
+      "shot_rate_per_min": 10.03
+    },
+    "player_4": {
+      "shot_counts": {
+        "forehand": 1,
+        "backhand": 2,
+        "smash": 0,
+        "unknown": 0,
+        "total": 3
+      },
+      "shot_rate_per_min": 15.05
+    },
+    "player_2": {
+      "shot_counts": {
+        "forehand": 7,
+        "backhand": 8,
+        "smash": 1,
+        "unknown": 0,
+        "total": 16
+      },
+      "shot_rate_per_min": 80.27
+    },
+    "player_1": {
+      "shot_counts": {
+        "forehand": 7,
+        "backhand": 3,
+        "smash": 1,
+        "unknown": 0,
+        "total": 11
+      },
+      "shot_rate_per_min": 55.18
+    },
+    "player_6": {
+      "shot_counts": {
+        "forehand": 1,
+        "backhand": 0,
+        "smash": 1,
+        "unknown": 0,
+        "total": 2
+      },
+      "shot_rate_per_min": 10.03
+    },
+    "player_8": {
+      "shot_counts": {
+        "forehand": 4,
+        "backhand": 0,
+        "smash": 1,
+        "unknown": 0,
+        "total": 5
+      },
+      "shot_rate_per_min": 25.08
+    },
+    "player_9": {
+      "shot_counts": {
+        "forehand": 1,
+        "backhand": 1,
+        "smash": 0,
+        "unknown": 0,
+        "total": 2
+      },
+      "shot_rate_per_min": 10.03
+    }
+  },
+  "rallies": [
+    {
+      "rally_id": 1,
+      "start_time_sec": 0.04,
+      "end_time_sec": 10.84,
+      "duration_sec": 10.8,
+      "shot_count": 41,
+      "players_involved": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9
+      ]
+    }
+  ]
+}

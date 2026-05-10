@@ -1,0 +1,10 @@
+# ─────────────────────────────────────────────────────────────────
+#  deploy/requirements_deploy.txt
+#  Extra packages needed ONLY for the API deployment
+#  Install both this AND the root requirements.txt
+# ─────────────────────────────────────────────────────────────────
+
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9     # for file upload parsing
+httpx==0.27.0               # for testing the API

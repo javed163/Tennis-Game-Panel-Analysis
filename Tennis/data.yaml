@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['tennis ball']
+
+roboflow:
+  workspace: javeds-workspace
+  project: javeds-workspace
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/javeds-workspace/javeds-workspace/dataset

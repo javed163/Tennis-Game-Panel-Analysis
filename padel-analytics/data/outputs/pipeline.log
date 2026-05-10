@@ -1,0 +1,110 @@
+10:29:49 | INFO     | shot_classifier | [Frame 00001 | t=0.03s | Player 2] FOREHAND   vel=50.0px angle=30.0°
+10:29:49 | INFO     | shot_classifier | [Frame 00001 | t=0.03s | Player 3] FOREHAND   vel=75.0px angle=30.0°
+10:29:49 | INFO     | shot_classifier | [Frame 00001 | t=0.03s | Player 4] FOREHAND   vel=75.0px angle=30.0°
+10:29:49 | INFO     | shot_classifier | [Frame 00001 | t=0.03s | Player 5] FOREHAND   vel=125.0px angle=30.0°
+10:29:49 | INFO     | shot_classifier | [Frame 00001 | t=0.03s | Player 10] FOREHAND   vel=150.0px angle=40.0°
+10:29:49 | INFO     | shot_classifier | [Frame 00001 | t=0.03s | Player 11] BACKHAND   vel=150.0px angle=-40.0°
+10:29:49 | INFO     | shot_classifier | [Frame 00001 | t=0.03s | Player 12] SMASH      vel=150.0px angle=5.0°
+10:29:49 | INFO     | shot_classifier | [Frame 00001 | t=0.03s | Player 20] BACKHAND   vel=150.0px angle=-40.0°
+10:29:49 | INFO     | shot_classifier | [Frame 00031 | t=1.03s | Player 21] FOREHAND   vel=150.0px angle=40.0°
+10:29:49 | INFO     | shot_classifier | [Frame 00061 | t=2.03s | Player 22] FOREHAND   vel=150.0px angle=0.0°
+10:29:49 | INFO     | shot_classifier | [Frame 00001 | t=0.03s | Player 30] FOREHAND   vel=150.0px angle=40.0°
+10:29:49 | INFO     | shot_classifier | [Frame 00061 | t=2.03s | Player 40] FOREHAND   vel=150.0px angle=30.0°
+10:29:49 | INFO     | shot_classifier | [Frame 00001 | t=0.03s | Player 50] FOREHAND   vel=150.0px angle=30.0°
+10:29:49 | INFO     | shot_classifier | [Frame 00001 | t=0.03s | Player 1] FOREHAND   vel=150.0px angle=30.0°
+10:29:49 | INFO     | shot_classifier | [Frame 00001 | t=0.03s | Player 2] FOREHAND   vel=150.0px angle=30.0°
+10:34:42 | INFO     | main | ========================================================
+10:34:42 | INFO     | main |   PADEL ANALYTICS PIPELINE  —  START
+10:34:42 | INFO     | main | ========================================================
+10:34:42 | INFO     | main |   Input      : data\raw\infernce_sample_video.mp4
+10:34:42 | INFO     | main |   Output dir : C:\Users\javed\Desktop\Panel Analytics\padel-analytics\data\outputs
+10:34:42 | INFO     | main |   Resolution : 1920x1080  @  25.0 fps
+10:34:42 | INFO     | main |   Frames     : 2175
+10:34:42 | INFO     | main |   Device     : cpu
+10:34:42 | INFO     | main |   Conf       : 0.4
+10:34:42 | INFO     | main | ========================================================
+10:34:42 | INFO     | main | Initialising modules...
+10:34:42 | INFO     | detection | Loading YOLO model: yolov8n.pt on device=cpu
+10:34:42 | INFO     | detection | YOLO model loaded successfully.
+10:34:42 | INFO     | visualizer | Visualizer ready (1920x1080, skeleton=True, hud=True)
+10:34:42 | INFO     | exporter | Exporter initialised → C:\Users\javed\Desktop\Panel Analytics\padel-analytics\data\outputs
+10:34:43 | INFO     | pose_estimator | PoseEstimator ready  complexity=1  det=0.5  trk=0.5
+10:34:45 | INFO     | exporter | VideoWriter opened → C:\Users\javed\Desktop\Panel Analytics\padel-analytics\data\outputs\output_annotated.mp4 (1920x1080 @ 25.0fps)
+10:34:46 | INFO     | main | Starting frame loop...
+10:34:52 | INFO     | shot_classifier | [Frame 00001 | t=0.04s | Player 3] FOREHAND   vel=47.2px angle=147.4°
+10:34:52 | INFO     | shot_classifier | [Frame 00001 | t=0.04s | Player 4] BACKHAND   vel=9.4px angle=-178.4°
+10:34:52 | INFO     | shot_classifier | [Frame 00002 | t=0.08s | Player 2] FOREHAND   vel=16.7px angle=172.4°
+10:34:54 | INFO     | shot_classifier | [Frame 00005 | t=0.20s | Player 1] FOREHAND   vel=12.8px angle=176.3°
+10:35:01 | INFO     | shot_classifier | [Frame 00017 | t=0.68s | Player 2] BACKHAND   vel=15.4px angle=-50.2°
+10:35:01 | INFO     | shot_classifier | [Frame 00017 | t=0.68s | Player 3] BACKHAND   vel=21.1px angle=-53.1°
+10:35:03 | INFO     | shot_classifier | [Frame 00022 | t=0.88s | Player 1] BACKHAND   vel=8.6px angle=-174.8°
+10:35:09 | INFO     | shot_classifier | [Frame 00033 | t=1.32s | Player 2] BACKHAND   vel=8.8px angle=-12.9°
+10:35:11 | INFO     | shot_classifier | [Frame 00037 | t=1.48s | Player 1] FOREHAND   vel=10.7px angle=163.2°
+10:35:17 | INFO     | shot_classifier | [Frame 00049 | t=1.96s | Player 2] BACKHAND   vel=43.1px angle=-0.0°
+10:35:18 | INFO     | shot_classifier | [Frame 00052 | t=2.08s | Player 1] FOREHAND   vel=14.0px angle=174.3°
+10:35:24 | INFO     | shot_classifier | [Frame 00064 | t=2.56s | Player 2] FOREHAND   vel=32.8px angle=63.1°
+10:35:25 | INFO     | shot_classifier | [Frame 00067 | t=2.68s | Player 4] BACKHAND   vel=8.0px angle=-86.0°
+10:35:37 | INFO     | shot_classifier | [Frame 00089 | t=3.56s | Player 2] BACKHAND   vel=9.6px angle=-170.2°
+10:35:44 | INFO     | shot_classifier | [Frame 00104 | t=4.16s | Player 4] FOREHAND   vel=9.9px angle=175.7°
+10:35:51 | INFO     | shot_classifier | [Frame 00117 | t=4.68s | Player 2] FOREHAND   vel=14.7px angle=171.1°
+10:36:01 | INFO     | shot_classifier | [Frame 00137 | t=5.48s | Player 2] BACKHAND   vel=12.7px angle=-175.2°
+10:36:06 | INFO     | shot_classifier | [Frame 00146 | t=5.84s | Player 6] FOREHAND   vel=8.5px angle=162.5°
+10:36:09 | INFO     | shot_classifier | [Frame 00154 | t=6.16s | Player 2] BACKHAND   vel=12.3px angle=-135.0°
+10:36:16 | INFO     | shot_classifier | [Frame 00167 | t=6.68s | Player 1] FOREHAND   vel=8.1px angle=148.7°
+10:36:19 | INFO     | shot_classifier | [Frame 00174 | t=6.96s | Player 6] SMASH      vel=13.5px angle=-32.6°
+10:36:20 | INFO     | shot_classifier | [Frame 00177 | t=7.08s | Player 2] FOREHAND   vel=21.6px angle=170.2°
+10:36:22 | INFO     | shot_classifier | [Frame 00182 | t=7.28s | Player 1] FOREHAND   vel=9.9px angle=174.3°
+10:36:28 | INFO     | shot_classifier | [Frame 00192 | t=7.68s | Player 2] BACKHAND   vel=17.3px angle=-160.2°
+10:36:36 | INFO     | shot_classifier | [Frame 00208 | t=8.32s | Player 1] BACKHAND   vel=8.6px angle=-170.6°
+10:36:36 | INFO     | shot_classifier | [Frame 00208 | t=8.32s | Player 2] FOREHAND   vel=11.3px angle=169.0°
+10:36:36 | INFO     | shot_classifier | [Frame 00209 | t=8.36s | Player 8] FOREHAND   vel=41.8px angle=114.6°
+10:36:43 | INFO     | shot_classifier | [Frame 00223 | t=8.92s | Player 1] SMASH      vel=17.6px angle=-39.5°
+10:36:43 | INFO     | shot_classifier | [Frame 00223 | t=8.92s | Player 2] SMASH      vel=23.5px angle=-25.6°
+10:36:43 | INFO     | shot_classifier | [Frame 00224 | t=8.96s | Player 8] SMASH      vel=28.1px angle=-45.4°
+10:36:50 | INFO     | shot_classifier | [Frame 00237 | t=9.48s | Player 9] FOREHAND   vel=8.7px angle=173.2°
+10:36:51 | INFO     | shot_classifier | [Frame 00238 | t=9.52s | Player 2] BACKHAND   vel=21.2px angle=-96.9°
+10:36:51 | INFO     | shot_classifier | [Frame 00239 | t=9.56s | Player 1] FOREHAND   vel=11.8px angle=151.1°
+10:36:51 | INFO     | shot_classifier | [Frame 00239 | t=9.56s | Player 8] FOREHAND   vel=9.4px angle=65.2°
+10:36:58 | INFO     | shot_classifier | [Frame 00252 | t=10.08s | Player 9] BACKHAND   vel=17.2px angle=-125.7°
+10:36:58 | INFO     | shot_classifier | [Frame 00253 | t=10.12s | Player 2] FOREHAND   vel=13.9px angle=82.1°
+10:36:59 | INFO     | shot_classifier | [Frame 00254 | t=10.16s | Player 1] BACKHAND   vel=10.1px angle=-168.0°
+10:36:59 | INFO     | shot_classifier | [Frame 00254 | t=10.16s | Player 8] FOREHAND   vel=17.5px angle=148.3°
+10:37:06 | INFO     | shot_classifier | [Frame 00268 | t=10.72s | Player 2] FOREHAND   vel=9.0px angle=157.3°
+10:37:06 | INFO     | shot_classifier | [Frame 00269 | t=10.76s | Player 8] FOREHAND   vel=8.7px angle=98.1°
+10:37:07 | INFO     | shot_classifier | [Frame 00271 | t=10.84s | Player 1] FOREHAND   vel=8.0px angle=24.6°
+10:37:21 | INFO     | exporter | VideoWriter closed. Frames written: 300
+10:37:21 | INFO     | pose_estimator | PoseEstimator closed.
+10:37:21 | INFO     | detection | Detector closed.
+10:37:21 | INFO     | main | ========================================================
+10:37:21 | INFO     | main |   Frames processed : 300
+10:37:21 | INFO     | main |   Total shots      : 41
+10:37:21 | INFO     | analytics | Detected 1 rallies.
+10:37:21 | INFO     | main |   Rallies detected : 1
+10:37:21 | INFO     | main |   Elapsed time     : 155.9s
+10:37:21 | INFO     | main |   Avg throughput   : 1.9 fps
+10:37:21 | INFO     | main | ========================================================
+10:37:21 | INFO     | main | Exporting results...
+10:37:21 | INFO     | exporter | Running full export...
+10:37:21 | INFO     | exporter | JSON exported → C:\Users\javed\Desktop\Panel Analytics\padel-analytics\data\outputs\shots.json (41 shots)
+10:37:21 | INFO     | exporter | CSV exported → C:\Users\javed\Desktop\Panel Analytics\padel-analytics\data\outputs\shots.csv (41 rows)
+10:37:21 | INFO     | exporter | Summary JSON exported → C:\Users\javed\Desktop\Panel Analytics\padel-analytics\data\outputs\summary.json
+10:37:22 | INFO     | analytics | Shot count chart saved → C:\Users\javed\Desktop\Panel Analytics\padel-analytics\data\outputs\chart_shot_counts.png
+10:37:22 | INFO     | exporter | Chart 'shot_counts' saved → C:\Users\javed\Desktop\Panel Analytics\padel-analytics\data\outputs\chart_shot_counts.png
+10:37:22 | INFO     | analytics | Timeline chart saved → C:\Users\javed\Desktop\Panel Analytics\padel-analytics\data\outputs\chart_timeline.png
+10:37:22 | INFO     | exporter | Chart 'timeline' saved → C:\Users\javed\Desktop\Panel Analytics\padel-analytics\data\outputs\chart_timeline.png
+10:37:23 | INFO     | analytics | Heatmap saved → C:\Users\javed\Desktop\Panel Analytics\padel-analytics\data\outputs\chart_heatmap.png
+10:37:23 | INFO     | exporter | Chart 'heatmap' saved → C:\Users\javed\Desktop\Panel Analytics\padel-analytics\data\outputs\chart_heatmap.png
+10:37:23 | INFO     | analytics | Dashboard saved → C:\Users\javed\Desktop\Panel Analytics\padel-analytics\data\outputs\chart_dashboard.png
+10:37:23 | INFO     | exporter | Chart 'dashboard' saved → C:\Users\javed\Desktop\Panel Analytics\padel-analytics\data\outputs\chart_dashboard.png
+10:37:23 | INFO     | exporter | Export complete. 7 files written to C:\Users\javed\Desktop\Panel Analytics\padel-analytics\data\outputs
+10:37:23 | INFO     | exporter | ────────────────────────────────────────────────────
+10:37:23 | INFO     | exporter |   EXPORT REPORT
+10:37:23 | INFO     | exporter | ────────────────────────────────────────────────────
+10:37:23 | INFO     | exporter |   json              12.8 KB   shots.json
+10:37:23 | INFO     | exporter |   csv                2.1 KB   shots.csv
+10:37:23 | INFO     | exporter |   summary            2.0 KB   summary.json
+10:37:23 | INFO     | exporter |   shot_counts       35.9 KB   chart_shot_counts.png
+10:37:23 | INFO     | exporter |   timeline          43.4 KB   chart_timeline.png
+10:37:23 | INFO     | exporter |   heatmap          113.7 KB   chart_heatmap.png
+10:37:23 | INFO     | exporter |   dashboard         75.6 KB   chart_dashboard.png
+10:37:23 | INFO     | exporter | ────────────────────────────────────────────────────

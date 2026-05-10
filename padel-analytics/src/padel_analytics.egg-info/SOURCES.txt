@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/padel_analytics.egg-info/PKG-INFO
+src/padel_analytics.egg-info/SOURCES.txt
+src/padel_analytics.egg-info/dependency_links.txt
+src/padel_analytics.egg-info/entry_points.txt
+src/padel_analytics.egg-info/requires.txt
+src/padel_analytics.egg-info/top_level.txt
+tests/test_classifier.py
+tests/test_detection.py

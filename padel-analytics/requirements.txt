@@ -1,0 +1,43 @@
+# ─────────────────────────────────────────────
+#  Padel Game Analytics — Shot Classification
+#  requirements.txt
+# ─────────────────────────────────────────────
+
+# ── Core CV & Detection ──────────────────────
+opencv-python==4.9.0.80          # video I/O, frame processing, drawing overlays
+ultralytics==8.2.18              # YOLOv8 — object detection + built-in ByteTrack
+mediapipe==0.10.14               # pose estimation (33 body keypoints)
+
+# ── Tracking (optional standalone) ──────────
+# deep-sort-realtime==1.3.2      # alternative tracker (uncomment if not using ByteTrack)
+
+# ── Numerical & Data ─────────────────────────
+numpy==1.26.4                    # array math, frame manipulation
+pandas==2.2.2                    # shot event DataFrames, CSV export
+scipy==1.13.0                    # signal processing, velocity smoothing
+
+# ── Visualisation ────────────────────────────
+matplotlib==3.9.0                # shot count charts, timeline plots
+seaborn==0.13.2                  # heatmaps (player court positioning)
+
+# ── Deep Learning (optional) ─────────────────
+torch==2.3.0                     # PyTorch — only needed if training a custom classifier
+torchvision==0.18.0              # image transforms for custom model training
+# tensorflow==2.16.1             # TF alternative — uncomment if preferred
+
+# ── Serialisation ────────────────────────────
+# (json is stdlib — no extra install needed)
+
+# ── Notebook & Dev ───────────────────────────
+jupyterlab==4.2.1                # exploration + analytics dashboard notebooks
+ipywidgets==8.1.3                # interactive widgets inside notebooks
+tqdm==4.66.4                     # progress bars for long video processing loops
+
+# ── Testing ──────────────────────────────────
+pytest==8.2.0                    # unit tests for detection + classifier modules
+pytest-cov==5.0.0                # coverage reporting
+
+# ── Utilities ────────────────────────────────
+python-dotenv==1.0.1             # load .env for paths / API keys
+loguru==0.7.2                    # clean structured logging
+pyyaml==6.0.1                    # YAML config support (optional alternative to config.py)

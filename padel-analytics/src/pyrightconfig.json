@@ -1,0 +1,16 @@
+{
+  "pythonVersion": "3.10",
+  "pythonPlatform": "Windows",
+  "include": [
+    "src",
+    "tests",
+    "deploy"
+  ],
+  "extraPaths": [
+    "src"
+  ],
+  "typeCheckingMode": "basic",
+  "reportMissingImports": false,
+  "reportMissingModuleSource": false,
+  "reportUnusedImport": false
+}

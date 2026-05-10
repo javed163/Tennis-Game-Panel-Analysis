@@ -1,0 +1,560 @@
+{
+  "meta": {
+    "exported_at": "2026-05-10T10:37:21",
+    "total_shots": 41,
+    "total_players": 7,
+    "generator": "Padel Analytics Pipeline v1.0"
+  },
+  "summary": {
+    "duration_sec": 11.96,
+    "total_frames": 299,
+    "fps": 25.0,
+    "total_shots": 41,
+    "total_rallies": 1,
+    "avg_rally_shots": 41.0,
+    "avg_rally_duration": 10.8,
+    "player_stats": {
+      "player_3": {
+        "shot_counts": {
+          "forehand": 1,
+          "backhand": 1,
+          "smash": 0,
+          "unknown": 0,
+          "total": 2
+        },
+        "shot_rate_per_min": 10.03
+      },
+      "player_4": {
+        "shot_counts": {
+          "forehand": 1,
+          "backhand": 2,
+          "smash": 0,
+          "unknown": 0,
+          "total": 3
+        },
+        "shot_rate_per_min": 15.05
+      },
+      "player_2": {
+        "shot_counts": {
+          "forehand": 7,
+          "backhand": 8,
+          "smash": 1,
+          "unknown": 0,
+          "total": 16
+        },
+        "shot_rate_per_min": 80.27
+      },
+      "player_1": {
+        "shot_counts": {
+          "forehand": 7,
+          "backhand": 3,
+          "smash": 1,
+          "unknown": 0,
+          "total": 11
+        },
+        "shot_rate_per_min": 55.18
+      },
+      "player_6": {
+        "shot_counts": {
+          "forehand": 1,
+          "backhand": 0,
+          "smash": 1,
+          "unknown": 0,
+          "total": 2
+        },
+        "shot_rate_per_min": 10.03
+      },
+      "player_8": {
+        "shot_counts": {
+          "forehand": 4,
+          "backhand": 0,
+          "smash": 1,
+          "unknown": 0,
+          "total": 5
+        },
+        "shot_rate_per_min": 25.08
+      },
+      "player_9": {
+        "shot_counts": {
+          "forehand": 1,
+          "backhand": 1,
+          "smash": 0,
+          "unknown": 0,
+          "total": 2
+        },
+        "shot_rate_per_min": 10.03
+      }
+    },
+    "rallies": [
+      {
+        "rally_id": 1,
+        "start_time_sec": 0.04,
+        "end_time_sec": 10.84,
+        "duration_sec": 10.8,
+        "shot_count": 41,
+        "players_involved": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  "shots": [
+    {
+      "track_id": 3,
+      "frame_idx": 1,
+      "timestamp_sec": 0.04,
+      "shot_type": "forehand",
+      "confidence": 0.55,
+      "wrist_velocity": 47.21,
+      "forearm_angle": 147.45,
+      "wrist_x": 360.1,
+      "wrist_y": 738.3
+    },
+    {
+      "track_id": 4,
+      "frame_idx": 1,
+      "timestamp_sec": 0.04,
+      "shot_type": "backhand",
+      "confidence": 0.55,
+      "wrist_velocity": 9.44,
+      "forearm_angle": -178.38,
+      "wrist_x": 987.7,
+      "wrist_y": 96.1
+    },
+    {
+      "track_id": 2,
+      "frame_idx": 2,
+      "timestamp_sec": 0.08,
+      "shot_type": "forehand",
+      "confidence": 0.55,
+      "wrist_velocity": 16.66,
+      "forearm_angle": 172.45,
+      "wrist_x": 1313.8,
+      "wrist_y": 632.0
+    },
+    {
+      "track_id": 1,
+      "frame_idx": 5,
+      "timestamp_sec": 0.2,
+      "shot_type": "forehand",
+      "confidence": 0.55,
+      "wrist_velocity": 12.76,
+      "forearm_angle": 176.31,
+      "wrist_x": 728.6,
+      "wrist_y": 204.1
+    },
+    {
+      "track_id": 2,
+      "frame_idx": 17,
+      "timestamp_sec": 0.68,
+      "shot_type": "backhand",
+      "confidence": 0.894,
+      "wrist_velocity": 15.43,
+      "forearm_angle": -50.17,
+      "wrist_x": 1353.9,
+      "wrist_y": 661.9
+    },
+    {
+      "track_id": 3,
+      "frame_idx": 17,
+      "timestamp_sec": 0.68,
+      "shot_type": "backhand",
+      "confidence": 0.88,
+      "wrist_velocity": 21.14,
+      "forearm_angle": -53.06,
+      "wrist_x": 256.3,
+      "wrist_y": 715.2
+    },
+    {
+      "track_id": 1,
+      "frame_idx": 22,
+      "timestamp_sec": 0.88,
+      "shot_type": "backhand",
+      "confidence": 0.55,
+      "wrist_velocity": 8.62,
+      "forearm_angle": -174.78,
+      "wrist_x": 710.6,
+      "wrist_y": 186.1
+    },
+    {
+      "track_id": 2,
+      "frame_idx": 33,
+      "timestamp_sec": 1.32,
+      "shot_type": "backhand",
+      "confidence": 0.76,
+      "wrist_velocity": 8.83,
+      "forearm_angle": -12.94,
+      "wrist_x": 1415.0,
+      "wrist_y": 625.7
+    },
+    {
+      "track_id": 1,
+      "frame_idx": 37,
+      "timestamp_sec": 1.48,
+      "shot_type": "forehand",
+      "confidence": 0.55,
+      "wrist_velocity": 10.67,
+      "forearm_angle": 163.23,
+      "wrist_x": 704.9,
+      "wrist_y": 176.3
+    },
+    {
+      "track_id": 2,
+      "frame_idx": 49,
+      "timestamp_sec": 1.96,
+      "shot_type": "backhand",
+      "confidence": 0.55,
+      "wrist_velocity": 43.1,
+      "forearm_angle": -0.04,
+      "wrist_x": 1398.5,
+      "wrist_y": 646.6
+    },
+    {
+      "track_id": 1,
+      "frame_idx": 52,
+      "timestamp_sec": 2.08,
+      "shot_type": "forehand",
+      "confidence": 0.55,
+      "wrist_velocity": 13.98,
+      "forearm_angle": 174.27,
+      "wrist_x": 740.9,
+      "wrist_y": 211.2
+    },
+    {
+      "track_id": 2,
+      "frame_idx": 64,
+      "timestamp_sec": 2.56,
+      "shot_type": "forehand",
+      "confidence": 0.83,
+      "wrist_velocity": 32.83,
+      "forearm_angle": 63.08,
+      "wrist_x": 1439.0,
+      "wrist_y": 651.0
+    },
+    {
+      "track_id": 4,
+      "frame_idx": 67,
+      "timestamp_sec": 2.68,
+      "shot_type": "backhand",
+      "confidence": 0.715,
+      "wrist_velocity": 8.01,
+      "forearm_angle": -86.04,
+      "wrist_x": 1004.3,
+      "wrist_y": 75.3
+    },
+    {
+      "track_id": 2,
+      "frame_idx": 89,
+      "timestamp_sec": 3.56,
+      "shot_type": "backhand",
+      "confidence": 0.55,
+      "wrist_velocity": 9.61,
+      "forearm_angle": -170.2,
+      "wrist_x": 1418.5,
+      "wrist_y": 701.8
+    },
+    {
+      "track_id": 4,
+      "frame_idx": 104,
+      "timestamp_sec": 4.16,
+      "shot_type": "forehand",
+      "confidence": 0.55,
+      "wrist_velocity": 9.94,
+      "forearm_angle": 175.71,
+      "wrist_x": 1025.1,
+      "wrist_y": 43.2
+    },
+    {
+      "track_id": 2,
+      "frame_idx": 117,
+      "timestamp_sec": 4.68,
+      "shot_type": "forehand",
+      "confidence": 0.55,
+      "wrist_velocity": 14.73,
+      "forearm_angle": 171.11,
+      "wrist_x": 1428.1,
+      "wrist_y": 726.1
+    },
+    {
+      "track_id": 2,
+      "frame_idx": 137,
+      "timestamp_sec": 5.48,
+      "shot_type": "backhand",
+      "confidence": 0.55,
+      "wrist_velocity": 12.67,
+      "forearm_angle": -175.19,
+      "wrist_x": 1409.5,
+      "wrist_y": 726.9
+    },
+    {
+      "track_id": 6,
+      "frame_idx": 146,
+      "timestamp_sec": 5.84,
+      "shot_type": "forehand",
+      "confidence": 0.55,
+      "wrist_velocity": 8.46,
+      "forearm_angle": 162.51,
+      "wrist_x": 1022.0,
+      "wrist_y": 121.6
+    },
+    {
+      "track_id": 2,
+      "frame_idx": 154,
+      "timestamp_sec": 6.16,
+      "shot_type": "backhand",
+      "confidence": 0.55,
+      "wrist_velocity": 12.3,
+      "forearm_angle": -134.96,
+      "wrist_x": 1416.2,
+      "wrist_y": 710.3
+    },
+    {
+      "track_id": 1,
+      "frame_idx": 167,
+      "timestamp_sec": 6.68,
+      "shot_type": "forehand",
+      "confidence": 0.55,
+      "wrist_velocity": 8.08,
+      "forearm_angle": 148.68,
+      "wrist_x": 802.8,
+      "wrist_y": 188.8
+    },
+    {
+      "track_id": 6,
+      "frame_idx": 174,
+      "timestamp_sec": 6.96,
+      "shot_type": "smash",
+      "confidence": 0.842,
+      "wrist_velocity": 13.47,
+      "forearm_angle": -32.57,
+      "wrist_x": 1111.1,
+      "wrist_y": 116.9
+    },
+    {
+      "track_id": 2,
+      "frame_idx": 177,
+      "timestamp_sec": 7.08,
+      "shot_type": "forehand",
+      "confidence": 0.55,
+      "wrist_velocity": 21.57,
+      "forearm_angle": 170.17,
+      "wrist_x": 1379.8,
+      "wrist_y": 647.0
+    },
+    {
+      "track_id": 1,
+      "frame_idx": 182,
+      "timestamp_sec": 7.28,
+      "shot_type": "forehand",
+      "confidence": 0.55,
+      "wrist_velocity": 9.91,
+      "forearm_angle": 174.35,
+      "wrist_x": 783.8,
+      "wrist_y": 168.6
+    },
+    {
+      "track_id": 2,
+      "frame_idx": 192,
+      "timestamp_sec": 7.68,
+      "shot_type": "backhand",
+      "confidence": 0.55,
+      "wrist_velocity": 17.34,
+      "forearm_angle": -160.19,
+      "wrist_x": 1341.1,
+      "wrist_y": 568.9
+    },
+    {
+      "track_id": 1,
+      "frame_idx": 208,
+      "timestamp_sec": 8.32,
+      "shot_type": "backhand",
+      "confidence": 0.55,
+      "wrist_velocity": 8.62,
+      "forearm_angle": -170.62,
+      "wrist_x": 794.5,
+      "wrist_y": 170.2
+    },
+    {
+      "track_id": 2,
+      "frame_idx": 208,
+      "timestamp_sec": 8.32,
+      "shot_type": "forehand",
+      "confidence": 0.55,
+      "wrist_velocity": 11.29,
+      "forearm_angle": 169.0,
+      "wrist_x": 1275.6,
+      "wrist_y": 527.7
+    },
+    {
+      "track_id": 8,
+      "frame_idx": 209,
+      "timestamp_sec": 8.36,
+      "shot_type": "forehand",
+      "confidence": 0.572,
+      "wrist_velocity": 41.79,
+      "forearm_angle": 114.6,
+      "wrist_x": 790.3,
+      "wrist_y": 589.6
+    },
+    {
+      "track_id": 1,
+      "frame_idx": 223,
+      "timestamp_sec": 8.92,
+      "shot_type": "smash",
+      "confidence": 0.793,
+      "wrist_velocity": 17.58,
+      "forearm_angle": -39.52,
+      "wrist_x": 850.8,
+      "wrist_y": 165.4
+    },
+    {
+      "track_id": 2,
+      "frame_idx": 223,
+      "timestamp_sec": 8.92,
+      "shot_type": "smash",
+      "confidence": 0.95,
+      "wrist_velocity": 23.46,
+      "forearm_angle": -25.57,
+      "wrist_x": 1193.1,
+      "wrist_y": 512.2
+    },
+    {
+      "track_id": 8,
+      "frame_idx": 224,
+      "timestamp_sec": 8.96,
+      "shot_type": "smash",
+      "confidence": 0.912,
+      "wrist_velocity": 28.06,
+      "forearm_angle": -45.37,
+      "wrist_x": 783.3,
+      "wrist_y": 587.3
+    },
+    {
+      "track_id": 9,
+      "frame_idx": 237,
+      "timestamp_sec": 9.48,
+      "shot_type": "forehand",
+      "confidence": 0.55,
+      "wrist_velocity": 8.69,
+      "forearm_angle": 173.21,
+      "wrist_x": 1232.6,
+      "wrist_y": 178.6
+    },
+    {
+      "track_id": 2,
+      "frame_idx": 238,
+      "timestamp_sec": 9.52,
+      "shot_type": "backhand",
+      "confidence": 0.66,
+      "wrist_velocity": 21.17,
+      "forearm_angle": -96.92,
+      "wrist_x": 1085.9,
+      "wrist_y": 352.3
+    },
+    {
+      "track_id": 1,
+      "frame_idx": 239,
+      "timestamp_sec": 9.56,
+      "shot_type": "forehand",
+      "confidence": 0.55,
+      "wrist_velocity": 11.82,
+      "forearm_angle": 151.11,
+      "wrist_x": 867.1,
+      "wrist_y": 121.8
+    },
+    {
+      "track_id": 8,
+      "frame_idx": 239,
+      "timestamp_sec": 9.56,
+      "shot_type": "forehand",
+      "confidence": 0.819,
+      "wrist_velocity": 9.39,
+      "forearm_angle": 65.22,
+      "wrist_x": 698.4,
+      "wrist_y": 509.8
+    },
+    {
+      "track_id": 9,
+      "frame_idx": 252,
+      "timestamp_sec": 10.08,
+      "shot_type": "backhand",
+      "confidence": 0.55,
+      "wrist_velocity": 17.23,
+      "forearm_angle": -125.7,
+      "wrist_x": 1103.5,
+      "wrist_y": 146.1
+    },
+    {
+      "track_id": 2,
+      "frame_idx": 253,
+      "timestamp_sec": 10.12,
+      "shot_type": "forehand",
+      "confidence": 0.735,
+      "wrist_velocity": 13.88,
+      "forearm_angle": 82.1,
+      "wrist_x": 1224.3,
+      "wrist_y": 271.1
+    },
+    {
+      "track_id": 1,
+      "frame_idx": 254,
+      "timestamp_sec": 10.16,
+      "shot_type": "backhand",
+      "confidence": 0.55,
+      "wrist_velocity": 10.06,
+      "forearm_angle": -168.0,
+      "wrist_x": 837.1,
+      "wrist_y": 132.9
+    },
+    {
+      "track_id": 8,
+      "frame_idx": 254,
+      "timestamp_sec": 10.16,
+      "shot_type": "forehand",
+      "confidence": 0.55,
+      "wrist_velocity": 17.53,
+      "forearm_angle": 148.35,
+      "wrist_x": 820.7,
+      "wrist_y": 549.9
+    },
+    {
+      "track_id": 2,
+      "frame_idx": 268,
+      "timestamp_sec": 10.72,
+      "shot_type": "forehand",
+      "confidence": 0.55,
+      "wrist_velocity": 9.02,
+      "forearm_angle": 157.29,
+      "wrist_x": 1264.4,
+      "wrist_y": 270.0
+    },
+    {
+      "track_id": 8,
+      "frame_idx": 269,
+      "timestamp_sec": 10.76,
+      "shot_type": "forehand",
+      "confidence": 0.654,
+      "wrist_velocity": 8.73,
+      "forearm_angle": 98.12,
+      "wrist_x": 883.0,
+      "wrist_y": 504.5
+    },
+    {
+      "track_id": 1,
+      "frame_idx": 271,
+      "timestamp_sec": 10.84,
+      "shot_type": "forehand",
+      "confidence": 0.818,
+      "wrist_velocity": 8.03,
+      "forearm_angle": 24.55,
+      "wrist_x": 855.3,
+      "wrist_y": 111.1
+    }
+  ]
+}
